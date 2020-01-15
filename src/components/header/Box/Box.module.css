@@ -1,0 +1,64 @@
+.modal{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222;
+    padding: 0.5rem 1rem;
+    width: 50rem;
+    border-radius: 0.5rem;
+}
+
+.boxHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 437px;
+    color: white;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 690px;
+    color: #e3b873;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}  
+
+.close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+.items td button {
+    background-color: #3b6ead;
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}

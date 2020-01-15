@@ -1,0 +1,104 @@
+.modal{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.popup{   
+background: white;
+margin: 10% auto;
+width: 25%;
+box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+animation-name: modalopen;
+animation-duration: var(--modal-duration);
+border-radius: 5px;
+}
+
+.modalContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222;
+    padding: 0.5rem 1rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+.modalContent h1{
+    color: #e3b873;
+}
+
+.modalContent form{
+    padding: 16px;
+}
+
+.modalContent p{
+    color: #e3b873;
+}
+  
+.formControl{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background:  #303030;
+}
+
+.formGroup label   {
+    color: #e3b873;
+}
+
+.cancelbtn{
+    float: left; 
+    background-color: #f44336; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.signupbtn{
+    float: left; 
+    background-color:  green; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.close {
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}  
+  
+.close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+.formGroup input{
+    color: white;
+}
+
+.errorMessage{
+    color: red;
+    display: flex;
+}

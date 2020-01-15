@@ -1,0 +1,55 @@
+.head {
+    display: flex;
+    background-color: #222;  
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-right: 20vw;
+}
+
+.logoAndSearch{
+    display: flex;
+    align-items: center;
+}
+
+.basketAndSignUp{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 300px;
+    font-size: 17px;
+    border: none;
+    padding:6px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #e3b873;
+}
+
+.basket {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/trash.svg);
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.signUp {
+    flex-shrink: 0;
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px;
+}

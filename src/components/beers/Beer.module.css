@@ -1,0 +1,73 @@
+.beer{
+    display: flex;
+    margin-top: 40px;
+    border: 1px solid #444;
+    padding: 1rem;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #303030;
+    border-radius: 0.3rem;
+    align-items: center;   
+}
+
+.beer .planetImg{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+ 
+.text h2{
+    letter-spacing: 0.7px;
+    padding-left: 40px;
+    color: #e3b873;
+}
+
+.description{
+    color: white;
+}
+
+.text button{ 
+    background-color: #3b6ead;
+    border: none;
+    color: white;
+    padding: 14px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.pagination {
+    position: absolute;
+    left: 50%;
+    margin: 10px auto;
+    transform: translate(-50%, -50%);
+}
+
+.pagination span {
+  cursor: pointer;
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+
+.pagination span:hover:not(.active) {background-color: #e3b873;}
+  
+.active, .pagiantion:hover{
+    background-color: #e3b873;
+    color: white;
+}
+
+.selectedPage{
+    background-color: #e3b873;
+    color: white;
+    border: 2px solid #444;
+}
